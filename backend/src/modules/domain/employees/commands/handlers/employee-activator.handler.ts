@@ -1,3 +1,4 @@
+
 import { ActivateEmployee } from '../activate-employee.command';
 import { BaseCommandHandler } from '../../../../common/commands';
 import { CommandHandler } from '@nestjs/cqrs';

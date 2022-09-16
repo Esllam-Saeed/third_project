@@ -306,7 +306,7 @@ jobs:
 #            then
 #              # your code here
 #           fi
-  notify _on_success:          
+  notify_on_success:          
     docker: 
       - image: cimg/base:stable
     steps: 

@@ -124,11 +124,7 @@ jobs:
              npm install
              npm audit fix --force --audit-level=critical
              npm audit --audit-level=critical
-<<<<<<< HEAD
-      - notify_on_failure       
-=======
-       - notify_on_failure       
->>>>>>> 3db7eeff2003014fd768ddaf960cf2b117c74812
+      - notify_on_failure    
 
   scan-backend:
     docker:
